@@ -1,0 +1,21 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A realtime chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vijayasenthil E",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "query-string": "^7.1.1",
+    "react-router-dom": "^6.4.2",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  }
+}
